@@ -111,3 +111,18 @@ p a:hover{
     justify-content: space-between;
   }
 }
+
+@media only screen and (max-device-width:360px){
+  .wrapper{
+    margin:50px auto;
+    width:300px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: column wrap;
+    flex-flow: column wrap;
+    justify-content: space-between;
+  }
+}
