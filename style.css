@@ -115,7 +115,6 @@ p a:hover{
 @media only screen and (max-device-width:360px){
   .wrapper{
     margin:50px auto;
-    width:300px;
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
