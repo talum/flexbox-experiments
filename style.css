@@ -116,7 +116,10 @@ p a:hover{
   h3{
     font-size: 3em;
   }
-  p{
+  .wrapper p{
+    font-size: 2em;
+  }
+  .contact p{
     font-size: 2em;
   }
   .wrapper{
@@ -133,7 +136,7 @@ p a:hover{
   }
   .card{
     width:100%;
-    height:100px;
+    height:auto;
     padding:5px;
     margin:20px;
     text-align: center;
