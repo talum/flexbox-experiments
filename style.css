@@ -15,6 +15,7 @@ p{
   font-family: 'Average', serif;
   color:#f1f0e9;
   font-size: 0.6em;
+  display:none;
 }
 
 .wrapper{
@@ -36,7 +37,6 @@ p{
   padding:0px;
   margin:20px;
   text-align: center;
-  line-height: 5em;
   font-size: 2em;
   border-bottom: 10px solid rgb(183,163,101);
 }
