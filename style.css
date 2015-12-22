@@ -133,11 +133,10 @@ p a:hover{
   }
   .card{
     width:100%;
-    height:auto;
+    height:100px;
     padding:5px;
     margin:20px;
     text-align: center;
-    font-size: 2em;
     border-bottom: 10px solid rgb(183,163,101);
     display: -webkit-box;
     display: -moz-box;
