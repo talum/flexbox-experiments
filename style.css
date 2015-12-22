@@ -113,13 +113,13 @@ p a:hover{
 
 @media only screen and (max-device-width:360px){
   h3{
-    font-size: 3em;
+    font-size: 4em;
   }
   .wrapper p{
-    font-size: 2em;
+    font-size: 3em;
   }
   .contact p{
-    font-size: 2em;
+    font-size: 3em;
   }
   .wrapper{
     margin:50px auto;
