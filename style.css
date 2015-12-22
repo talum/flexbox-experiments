@@ -12,15 +12,42 @@ h3{
   padding:2%;
 }
 
-p{
+.wrapper p{
   font-family: 'Average', serif;
   color:#f1f0e9;
   font-size: 0.6em;
   display:none;
 }
 
+.contact p{
+  color:#000;
+}
+
+p{
+  font-family: 'Average', serif;
+}
+
+p a{
+  text-decoration: none;
+}
+
+.wrapper p a{
+  color:#f1f0e9;
+}
+
+.contact p a{
+  color: #c08f4c;
+}
+
+p a:hover{
+  text-decoration: underline;
+}
+
 .wrapper{
-  margin:100px auto;
+  margin-top:100px;
+  margin-bottom:50px;
+  margin-left:auto;
+  margin-right:auto;
   width:1000px;
   display: -webkit-box;
   display: -moz-box;
@@ -35,7 +62,7 @@ p{
 .card{
   width:250px;
   height:200px;
-  padding:0px;
+  padding:5px;
   margin:20px;
   text-align: center;
   font-size: 2em;
@@ -62,6 +89,13 @@ p{
   background-color: #9a9083;
 }
 
+.contact{
+  display:none;
+}
+
+.center{
+  text-align: center;
+}
 
 @media only screen and (max-width:800px){
   .wrapper{
