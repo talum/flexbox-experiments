@@ -9,6 +9,7 @@ h3{
   letter-spacing: .1em;
   text-transform: uppercase;
   color:#d8d1c6;
+  padding:2%;
 }
 
 p{
@@ -33,12 +34,20 @@ p{
 
 .card{
   width:250px;
-  height:250px;
+  height:200px;
   padding:0px;
   margin:20px;
   text-align: center;
   font-size: 2em;
   border-bottom: 10px solid rgb(183,163,101);
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: column wrap;
+  flex-flow: column wrap;
+  justify-content: center;
 }
 
 .black-bg{
@@ -56,7 +65,7 @@ p{
 
 @media only screen and (max-width:800px){
   .wrapper{
-    margin:100px auto;
+    margin:50px auto;
     width:300px;
     display: -webkit-box;
     display: -moz-box;
