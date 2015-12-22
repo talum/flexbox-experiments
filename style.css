@@ -1,0 +1,69 @@
+body{
+  margin: 0 auto;
+  border-top: 5px solid #000;
+}
+
+h3{
+  font-family: 'Voltaire', sans-serif;
+  font-size:1em;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color:#d8d1c6;
+}
+
+p{
+  font-family: 'Average', serif;
+  color:#f1f0e9;
+  font-size: 0.6em;
+}
+
+.wrapper{
+  margin:100px auto;
+  width:1000px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.card{
+  width:250px;
+  height:250px;
+  padding:0px;
+  margin:20px;
+  text-align: center;
+  line-height: 2em;
+  font-size: 2em;
+  border-bottom: 10px solid rgb(183,163,101);
+}
+
+.black{
+  background-color: #000;
+}
+
+.bronze{
+  background-color: #c08f4c;
+}
+
+.tahoe{
+  background-color: #9a9083;
+}
+
+@media only screen and (max-width:800px){
+  .wrapper{
+    margin:100px auto;
+    width:300px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: column wrap;
+    flex-flow: column wrap;
+    justify-content: space-between;
+  }
+}
