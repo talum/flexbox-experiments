@@ -5,7 +5,7 @@ body{
 
 h3{
   font-family: 'Voltaire', sans-serif;
-  font-size:1em;
+  font-size:2em;
   letter-spacing: .1em;
   text-transform: uppercase;
   color:#d8d1c6;
@@ -15,7 +15,6 @@ h3{
 .wrapper p{
   font-family: 'Average', serif;
   color:#f1f0e9;
-  font-size: 0.6em;
   display:none;
 }
 
@@ -25,6 +24,7 @@ h3{
 
 p{
   font-family: 'Average', serif;
+  font-size: 1.5em;
 }
 
 p a{
@@ -65,7 +65,6 @@ p a:hover{
   padding:5px;
   margin:20px;
   text-align: center;
-  font-size: 2em;
   border-bottom: 10px solid rgb(183,163,101);
   display: -webkit-box;
   display: -moz-box;
