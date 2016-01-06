@@ -123,7 +123,7 @@ p a:hover{
   }
   .wrapper{
     margin:0px auto;
-    width:90%;
+    width:100%;
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
@@ -137,7 +137,7 @@ p a:hover{
     width:90%;
     height:300px;
     padding:5px;
-    margin:0px;
+    margin-bottom:20px;
     text-align: center;
     border-bottom: 10px solid rgb(183,163,101);
     display: -webkit-box;
