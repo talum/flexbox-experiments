@@ -122,7 +122,7 @@ p a:hover{
     font-size: 3em;
   }
   .wrapper{
-    margin:50px auto;
+    margin:0px auto;
     width:100%;
     display: -webkit-box;
     display: -moz-box;
@@ -135,7 +135,7 @@ p a:hover{
   }
   .card{
     width:100%;
-    height:auto;
+    height:300px;
     padding:5px;
     margin:20px;
     text-align: center;
