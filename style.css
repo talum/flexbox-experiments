@@ -98,7 +98,7 @@ p a:hover{
 
 @media only screen and (max-width:800px){
   .wrapper{
-    margin:50px auto;
+    margin:0px auto;
     width:300px;
     display: -webkit-box;
     display: -moz-box;
@@ -134,7 +134,7 @@ p a:hover{
     justify-content: space-between;
   }
   .card{
-    width:100%;
+    width:90%;
     height:300px;
     padding:5px;
     margin:0px;
